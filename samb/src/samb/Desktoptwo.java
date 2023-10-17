@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package samb;
+package jaba;
 
 /**
  *
@@ -36,24 +36,24 @@ public class Desktoptwo extends javax.swing.JFrame {
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(153, 0, 51));
-        setMaximumSize(new java.awt.Dimension(1240, 640));
-        setMinimumSize(new java.awt.Dimension(1240, 640));
-        setPreferredSize(new java.awt.Dimension(1240, 640));
 
         jPanel1.setBackground(new java.awt.Color(235, 235, 235));
-        jPanel1.setMaximumSize(new java.awt.Dimension(1240, 640));
-        jPanel1.setMinimumSize(new java.awt.Dimension(1240, 640));
 
-        jPanel2.setBackground(new java.awt.Color(204, 0, 0));
+        jPanel2.setBackground(new java.awt.Color(193, 35, 35));
 
         jPanel3.setBackground(new java.awt.Color(146, 18, 18));
 
         jLabel1.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 25)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("Mapua");
+        jLabel1.setText("Mapúa");
 
         jLabel2.setFont(new java.awt.Font("Microsoft Sans Serif", 0, 25)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 204, 0));
@@ -139,15 +139,52 @@ public class Desktoptwo extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Segoe UI Black", 1, 36)); // NOI18N
         jLabel3.setText("Home");
 
+        jLabel8.setFont(new java.awt.Font("Yu Gothic UI Semilight", 0, 90)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(153, 0, 0));
+        jLabel8.setText("University");
+
+        jLabel9.setFont(new java.awt.Font("Yu Gothic UI Semilight", 0, 90)); // NOI18N
+        jLabel9.setText("Mapúa");
+
+        jLabel10.setFont(new java.awt.Font("Tw Cen MT", 0, 24)); // NOI18N
+        jLabel10.setText("SCHOOL EQUIPMENT MONITORING SYSTEM");
+
+        jLabel11.setFont(new java.awt.Font("Tw Cen MT", 0, 20)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel11.setText("1191 Pablo Ocampo Sr. Ext, Makati, Metro Manila");
+
+        jLabel12.setFont(new java.awt.Font("Tw Cen MT", 0, 20)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel12.setText("(02) 8891 0837");
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(72, 72, 72)
-                .addComponent(jLabel3)
-                .addGap(0, 762, Short.MAX_VALUE))
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(72, 72, 72)
+                        .addComponent(jLabel3)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 160, Short.MAX_VALUE)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                .addComponent(jLabel9)
+                                .addGap(18, 18, 18)
+                                .addComponent(jLabel8)
+                                .addGap(123, 123, 123))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                .addComponent(jLabel10)
+                                .addGap(241, 241, 241))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                .addComponent(jLabel11)
+                                .addGap(254, 254, 254))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                .addComponent(jLabel12)
+                                .addGap(392, 392, 392))))))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -155,7 +192,17 @@ public class Desktoptwo extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(45, 45, 45)
                 .addComponent(jLabel3)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(62, 62, 62)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel10)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel11)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel12)
+                .addGap(102, 102, 102))
         );
 
         getContentPane().add(jPanel1, java.awt.BorderLayout.CENTER);
@@ -201,12 +248,17 @@ public class Desktoptwo extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
